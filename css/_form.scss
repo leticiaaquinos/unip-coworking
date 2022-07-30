@@ -1,0 +1,25 @@
+form{
+    background-color: $gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    outline: none;
+
+    h2{
+        text-align: center;
+    }
+
+    label{
+        padding: 10px 0;
+    }
+
+    input{
+        height: 2.5rem;
+        padding: 10px;
+        outline: none;
+    }
+
+    textarea{
+        outline: none;
+    }
+}

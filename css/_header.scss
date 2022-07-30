@@ -1,0 +1,54 @@
+header{
+    
+    nav {
+    padding:1rem;
+    background-color: $black;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+        h1{
+            font-weight: normal;
+        }
+
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li{
+                padding: 1rem;
+                list-style: none;
+
+                a{
+                    cursor: pointer; 
+                    font-size: 0.8rem;
+
+                    &:hover{
+                        color: $aqua;
+                    }
+                }
+            }
+        }
+
+        button{
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+
+            &:hover{
+            background-color: $aqua;
+            cursor: pointer;
+            }
+        } 
+}
+
+}
+
+.menu-responsive{
+    display: none;
+}
+
+.bi-list{
+    display: none;
+}
